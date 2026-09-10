@@ -1,0 +1,20 @@
+; XAUUSD_Scalper — Aggressive preset (default growth profile)
+; All sessions, trade news with care, higher targets.
+Magic=20260910
+EntryMode=ENTRY_BB_SQUEEZE
+TrendMode=TREND_MODE_BOTH
+RiskPercent=1.0
+NewsRiskMult=0.5
+RR=2.0
+SL_ATRMult=1.5
+MinSLPoints=80
+MaxSLPoints=300
+MaxTradesPerDay=40
+DailyLossPct=5.0
+WeeklyLossPct=10.0
+MaxConsecLosses=4
+ConsecLossPauseMin=60
+DailyProfitPct=15.0
+MaxSpreadPoints=70
+CareSpreadCeil=160
+CareSpreadFactor=3.0

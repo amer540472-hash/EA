@@ -1,0 +1,20 @@
+; XAUUSD_Scalper — Conservative preset (lower risk, trend-only)
+; Fewer trades, smaller risk, tighter stops on losing streaks.
+Magic=20260910
+EntryMode=ENTRY_BB_SQUEEZE
+TrendMode=TREND_MODE_WITH
+RiskPercent=0.5
+NewsRiskMult=0.5
+RR=1.5
+SL_ATRMult=1.0
+MinSLPoints=100
+MaxSLPoints=250
+MaxTradesPerDay=20
+DailyLossPct=3.0
+WeeklyLossPct=6.0
+MaxConsecLosses=3
+ConsecLossPauseMin=90
+DailyProfitPct=5.0
+MaxSpreadPoints=50
+CareSpreadCeil=120
+CareSpreadFactor=3.0
